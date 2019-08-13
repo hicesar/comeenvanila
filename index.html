@@ -13,12 +13,7 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  	
-	<!-- Begin Mailchimp Signup Form -->
+<!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
 	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
@@ -26,11 +21,12 @@
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
 <!----------------------------------font----------------------------------------------------------->
+<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Coda|Fredericka+the+Great&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Lateef|Leckerli+One|Libre+Caslon+Text|Lobster|Permanent+Marker|Shrikhand&display=swap" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>  
 
 <!------------------------------------------------CARRUSEL------------------------------------------------------>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -41,14 +37,13 @@
 <title>Pasteleria Vanila</title>
 </head>
 
-<body data-spy="scroll">
-    
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
 <!------------------------------------------------NAVEGADOR------------------------------------------------------>
- <header id="inicio" class="container col-12">
+    <header id="inicio" class="container col-12">
         
-    <nav id="nav" class="navbar navbar-expand-md navbar-dark navbar-fixed-top  nav justify-content-center" style="background-color: black">
-        <img id="logo" src="img/fotos/img/logo.png" height="90px" width="90px">      
- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavar"><span class="navbar-toggler-icon"></span></button>
+    <nav id="nav" class="navbar navbar-expand-md navbar-dark nav justify-content-center  fixed-top " style="background-color: black">
+     <a href="#inicio"> <img class="img-fliud" id="logo" src="img/fotos/img/logo.png" height="90px" width="90px" style="padding: 5%; height: 120px; width:auto; margin:-30px 0px;"></a>       
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavar"><span class="navbar-toggler-icon"></span></button>
     <div id="encabezado">
             <div class="collapse navbar-collapse" id="collapsibleNavar">
         <ul class="navbar-nav">
@@ -57,38 +52,31 @@
             <li class="nav-item"><a style="color: white" class="nav-link" href="#productos">Productos</a></li>
             <li class="nav-item"><a style="color: white" class="nav-link" href="#pie">Contacto</a></li>
         </ul>
-        
+
+                
         </div>
         </div>
         </nav>
     </header>
   
-<!--- <div class="col-sm-12" style="background-color: white; height: 50%"><br><br><br><br><br></div>
-<!------------------------------SLIDE----------------------------------------------------------------------------------------------------->
-    <article class="col-sm-12"> 
-        		<div id="demo" class="carousel slide" data-ride="carousel">
 
- 		 <!-- Indicators -->
-  			<ul class="carousel-indicators">
-  			  <li data-target="#demo" data-slide-to="0" class="active"></li>
-   			  <li data-target="#demo" data-slide-to="1"></li>
-              <li data-target="#demo" data-slide-to="2"></li>
-    		  <li data-target="#demo" data-slide-to="3"></li>
- 			</ul>
+<!------------------------------SLIDE----------------------------------------------------------------------------------------------------->
+    
+    <div id="demo" class="col-sm-12 carousel slide" data-ride="carousel" style="margin-top: 7.2%;">
 
   <!-- The slideshow -->
   			<div class="carousel-inner">
    			    <figure class="carousel-item active" style="background-color: #B3B138; height: 100%;">
-                    <img src="img/fotos/img/productos/ContenidoDeVanila/DSC_0639.jpg" alt="pastel vanila"  style="height: 100%; width: 60%;"/>
+                    <img src="img/fotos/img/productos/ContenidoDeVanila/DSC_0639%20(1).JPG" alt="pastel vanila"  style="height: 100%; width: 60%;"/>
     		  	<div class="carousel-caption">
     					<h3 style="color:snow; text-align:right; font-family:'Lobster', cursive; font-size:8vw; margin-left: 50%">Pastelería Vanila</h3>
     					
  			    </div>
                 </figure>
-                 <figure class="carousel-item" style="background-color:#C6AB4F; height: 100%;">
-                    <img src="img/fotos/img/productos/ContenidoDeVanila/Catalogo_pastel.png" alt="pastel vanila"  style="height: 100%; width:57%;"/>
+                 <figure class="carousel-item" style="background-color:#E7B353; height: 100%;">
+                    <img src="img/Catalogo-de-pastel.png" alt="pastel vanila"  style="height: 100%; width:60%;"/>
     		  	     <div class="carousel-caption">
-    					<h3 style="color:#40230A; text-align:right; font-family:'Lobster', cursive; font-size:8vw; margin-left: 20%">Tus favoritos</h3>
+    					<h3 style="color:#40230A; text-align:right; font-family:'Lobster', cursive; font-size:8vw; margin-left: 25%">Tus favoritos</h3>
                      <h3 style="color:snow; text-align:right; font-family:'Lobster', cursive; font-size:6vw; margin-left: 30%">¿ya los probaste?</h3>
                      </div>
                 </figure>
@@ -101,38 +89,37 @@
     					<h3 style="color:lightpink; text-align:left; font-family:'Lobster', cursive; font-size:8vw; margin-right: 50%">Pastelería Vanila</h3>
     					<p style="color:black; text-align:left; font-family:'Lateef', cursive;font-size:3vw; margin-right: 50%">Un mundo de sabores</p>
  			    	</div>
-                </figure>    
-        </div>
+                </figure>       
+           </div>
     
 
  		 <!-- Left and right controls -->
- 		 <a class="carousel-control-prev" href="#demo" data-slide="prev">
+ 		 <a class="carousel-control-prev" href="#demo" data-slide="prev">    
   		  <span class="carousel-control-prev-icon"></span>
   		 </a>
          <a class="carousel-control-next" href="#demo" data-slide="next">
     	  <span class="carousel-control-next-icon"></span>
          </a>
     </div>  
-    </article>
     
 <!-------------------------------------INFORMACION-------------------------------------------------->
 <section id="nosotros"  class="col-sm-12" style="background-color:black">
     <br><br><br>
     <h1 style="color:#FFBB33; text-align: center; font-family:'Lobster', cursive; font-size:8vw;">¿Quienes somos?</h1><br><br>
-    <p style="color:snow; text-align:justify; font-family: 'Lateef', cursive; font-size: 30px">Vanila es una repostería familiar fundada recientemente en 2016, Debido a la dedicación y gusto por la repostería, a la calidad y la excelencia, Vanila ha recibido el reconocimiento y fidelidad de sus clientes.  </p>
+    <p style="color:snow; text-align:justify; font-family: 'Lateef', cursive; font-size: 30px">Vanila es una repostería familiar fundada en 2016, Debido a la dedicación y gusto por la repostería, a la calidad y la excelencia, Vanila ha recibido el reconocimiento y fidelidad de sus clientes.</p>
    <div class="col-sm-6">
-    <h3 style="color:#FFBB33; text-align: center; font-family:'Leckerli One', cursive; font-size: 30px">Vision</h3><br>
+    <h3 style="color:#FFBB33; text-align: center; font-family:'Lobster', cursive; font-size: 30px">Visión</h3><br>
     <p style="color:snow; text-align: center; font-family: 'Lateef', cursive; font-size: 25px">Nuestra visión es consolidarnos en el mercado como una de las mejores pastelerías a nivel nacional ofreciendo nuestros productos como la mejor opción para hacer sus eventos inolvidables.</p>
     </div>
     
     <div class="col-sm-6 w3-container">
-    <h3 class="w3-center w3-animate-left" style="color:#FFBB33; text-align: center; font-family:'Leckerli One', cursive; font-size: 30px">Misión</h3><br>
-     <p class="w3-center w3-animate-left" style="color:snow; text-align: center; font-family: 'Lateef', cursive; font-size: 25px">Ofrecer productos de alta calidad y con el mejor sabor para lograr la satisfacción de nuestros clientes pues en Pastelerías Vanila creemos que un buen pastel puede crear momentos inolvidables.</p><br><br><br><br><br>
+    <h3 style="color:#FFBB33; text-align: center; font-family:'Lobster', cursive; font-size: 30px">Misión</h3><br>
+     <p class="w3-center w3-animate-left" style="color:snow; text-align: center; font-family: 'Lateef', cursive; font-size: 25px">Ofrecer productos de alta calidad y con el mejor sabor para lograr la satisfacción de nuestros clientes pues en Pastelería Vanila creemos que un buen pastel puede crear momentos inolvidables.</p><br><br><br><br><br>
     </div>
     </section>
-<!--------------------------------------------------PRODUCTOS----------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------->
  <section class="col-sm-justify-content-around" style="background-color:white; margin-top: 10%;">
-     <div class="col-sm-12" style="background-color: white; height: 50%"><br><br><br></div>
+     <div id="productos" class="col-sm-12" style="background-color: white; height: 50%"><br><br><br></div>
         <!-----espacio para parrafo e imagenes-->
     
             <h1 style="color: black; text-align: center;text-align: center; font-family:'Lobster', cursive; font-size: 80px">Productos</h1>
@@ -145,19 +132,19 @@
                     <h2 class="text-center" style="font-family:'Lobster', cursive; font-size: 30px">Pasteles</h2>
                     <br>
                     <div class="card col-sm-6">
-                    <div>
-                        <img alt="pastel imposible" class="img-fluid mx-auto d-block" src="img/fotos/img/productos/Catalogo_pastel1.png" style="height: 150px; width: auto;">
+                    <div class="card-body">
+                        <img alt="pastel imposible" class="img-fluid mx-auto d-block" src="img/Catalogo%20pastel.png" style="height: 150px; width: auto;">
                         <br>
                         <h4 style="text-align: center; font-family: 'Lateef', cursive; text-decoration: underline; font-size: 25px">Pastel Imposible </h4>
-                        <p style="text-align: center; font-family: 'Lateef', cursive; font-size: 20px;">Pastel grande de chocolate con flan.<br><br></p>
+                        <p style="text-align: center; font-family: 'Lateef', cursive; font-size: 20px;">Pastel grande de chocolate con flan decorado.</p>
                     </div>
                     </div>
                     <div class="card col-sm-6">
-                    <div >
-                        <img alt="pastel de zanahoria" class="zoom img-fluid mx-auto d-block" src="img/fotos/img/productos/Catalogo-1-1.png" style="height: 150px; width: auto;">
+                    <div class="card-body">
+                        <img alt="pastel de zanahoria" class="zoom img-fluid mx-auto d-block" src="img/Catalogo-1.png" style="height: 150px; width: auto;">
                         <br>
                         <h4 style="text-align: center; font-family: 'Lateef', cursive; text-decoration: underline; font-size: 25px">Pastel de Zanahoria </h4>
-                        <p style="text-align: center; font-family: 'Lateef', cursive;font-size: 20px">Pastel grande con piña, pasas, nuez y un toque de canela.</p>
+                        <p style="text-align: center; font-family: 'Lateef', cursive;font-size: 20px">Pastel grande con rayadura de zanahoria, nuez y un toque de canela.</p>
                     </div>
                     </div>
                 </div>
@@ -165,19 +152,19 @@
                     <h2 class="text-center" style="font-family:'Lobster', cursive; font-size: 30px">Cupcakes</h2>
                     <br>
                     <div class="card col-sm-6">
-                        <div >
-                            <img alt="cupcake vainilla" class="zoom img-fluid mx-auto d-block" src="img/fotos/img/productos/Catalogo-Cupcake3-1.png" style="height: 150px; width: auto;">
+                        <div class="card-body">
+                            <img alt="cupcake vainilla" class="zoom img-fluid mx-auto d-block" src="img/Catalogo-Cupcake3.png" style="height: 150px; width: auto;">
                             <br>
                             <h4 style=" text-align: center; font-family: 'Lateef', cursive; text-decoration: underline; font-size: 25px">Cupcake de Vainilla</h4>
-                            <p style="text-align: center; font-family: 'Lateef', cursive; font-size: 20px">Vainilla con cubierta de betún.</p>
+                            <p style="text-align: center; font-family: 'Lateef', cursive; font-size: 20px">Vainilla con cubierta de betún.<br><br></p>
                         </div>
                     </div>
                     <div class="card col-sm-6">
-                    <div>
-                        <img alt="cupcake chocolate" class="zoom img-fluid mx-auto d-block" src="img/fotos/img/productos/Catalogo-Cupcake-1.png" style="height: 150px; width: auto;">
+                    <div class="card-body">
+                        <img alt="cupcake chocolate" class="zoom img-fluid mx-auto d-block" src="img/Catalogo-Cupcake.png" style="height: 150px; width: auto;">
                         <br>
                         <h4 style="text-align: center; font-family: 'Lateef', cursive; text-decoration: underline; font-size: 25px">Cupcake de Chocolate</h4>
-                        <p style="text-align: center; font-family: 'Lateef', cursive;font-size: 20px">Chocolate con cubierta de betún.</p>
+                        <p style="text-align: center; font-family: 'Lateef', cursive;font-size: 20px">Chocolate con cubierta de betún.<br><br></p>
                     </div>
                     </div>
                 </div>
@@ -189,19 +176,19 @@
                     <h2 class="text-center" style="font-family:'Lobster', cursive; font-size: 30px">Pastelitos</h2>
                     <br>
                     <div class="card col-lg-6">
-                    <div>
-                        <img alt="pastelito vainilla" class="zoom img-fluid mx-auto d-block" src="img/fotos/img/productos/Catalogo-pastelitos-3-1.png" style="height: 150px; width: auto;">
+                    <div class="card-body">
+                        <img alt="pastelito vainilla" class="zoom img-fluid mx-auto d-block" src="img/Catalogo-pastelitos-3.png" style="height: 150px; width: auto;">
                         <br>
                         <h4 style="text-align: center; font-family: 'Lateef', cursive;text-decoration: underline; font-size: 25px">Pastelito de Vainilla </h4>
                         <p style="text-align: center; font-family: 'Lateef', cursive;font-size: 20px">Pastelito de Vainilla cubierto de betún con cerezá.</p>
                     </div>
                     </div>
                     <div class="card col-sm-6">
-                    <div>
-                        <img alt="pastel imposible" class="zoom img-fluid mx-auto d-block" src="img/fotos/img/productos/ContenidoDeVanila/VANILA6-1.png" style="height: 150px; width: auto;">
+                    <div class="card-body">
+                        <img alt="pastel imposible" class="zoom img-fluid mx-auto d-block" src="img/VANILA6.png" style="height: 150px; width: auto;">
                         <br>
-                        <h4 style=" text-align: center; font-family: 'Lateef', cursive; text-decoration: underline; font-size: 25px">Imposible pequeño</h4>
-                        <p style=" text-align: center; font-family: 'Lateef', cursive; font-size: 20px">Pastel imposible pequeño. flan y biscocho de chocolate</p>
+                        <h4 style=" text-align: center; font-family: 'Lateef', cursive; text-decoration: underline; font-size: 25px">Pastel de zanahoria</h4>
+                        <p style=" text-align: center; font-family: 'Lateef', cursive; font-size: 20px">Pastel de zanahoria con piña, pasas, nuez y un toque de canela.</p>
                     </div>
                     </div>
                 </div>
@@ -209,25 +196,25 @@
                     <h2 class="text-center" style="font-family:'Lobster', cursive;font-size: 30px">Gelatinas</h2>
                     <br>
                     <div class="card col-sm-6">
-                        <div >
+                        <div class="card-body">
                             <img alt="gelatina de durazno" class="zoom img-fluid mx-auto d-block" src="img/Vanila4.png" style="height: 150px; width: auto;">
                             <br>
                             <h4 style=" text-align: center; font-family: 'Lateef', cursive;text-decoration: underline; font-size: 25px">Gelatina de Durazno </h4>
-                            <p style=" text-align: center; font-family: 'Lateef', cursive;font-size: 20px">Gelatina grande de durazno.</p>
+                            <p style=" text-align: center; font-family: 'Lateef', cursive;font-size: 20px">Gelatina grande de durazno.<br><br></p>
                         </div>
                     </div>
                     <div class="card col-sm-6">
-                    <div >
+                    <div class="card-body">
                         <img  alt="gelatina" class="zoom img-fluid mx-auto d-block" src="img/Vanila-1.png" style="height: 150px; width: auto;">
                         <br>
                         <h4 style="text-align: center; font-family: 'Lateef', cursive; text-decoration: underline; font-size: 25px">Gelatina de Durazno </h4>
-                        <p style="text-align: center; font-family: 'Lateef', cursive;font-size: 20px">Gelatina grande de durazno.</p>
+                        <p style="text-align: center; font-family: 'Lateef', cursive;font-size: 20px">Gelatina grande de durazno.<br><br></p>
                     </div>
                     </div>
                 </div>
                  <div class="col-sm-12" style="background-color: white; height: 50%"><br><br></div>
                     <section class="col-sm-12">
-    <div class="card body" style="background-color: hsla(360, 76%, 0%, 0.90)"><a href="Productos.html"><h1 style="font-size: 30px;font-family: 'Lateef', cursive; text-align: center; color: white;">Ver más</h1></a></div>
+    <div class="card body" style="background-color: hsla(360, 76%, 0%, 0.90)"><a href="Productos.html"><h3 style="font-family: 'Lateef', cursive; text-align: center; color: white; margin-top: 1%;">Ver más...</h3></a></div>
     </section>
             </article>
              
@@ -235,27 +222,37 @@
         </section>
       <div class="col-sm-12" style="background-color: white; height: 50%"><br><br><br></div>
 <!-------------------------------------Formulario de COMENTARIOS--------------------------------------------------->
-
-<div id="mc_embed_signup">
-<form action="https://gmail.us3.list-manage.com/subscribe/post?u=16bbf1186b6ec625f1fa76564&amp;id=f93299677b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <section class="container">
+    <div class="col-12">
+        <div class="col-sm-6">
+             <h3 style="text-align:justify-all; font-family: 'Fredericka the Great', cursive; font-size:50px;"><strong>SUBSCRÍBETE A LAS NOTICIAS DE PASTELERÍA VANILA</strong></h3>
+             <P style="text-align:justify-all; font-family: 'Coda', cursive; font-size: 15px"><strong>Sé el primero en enterarte de nuevos pasteles, colecciones precios y más ...</strong></P>
+          </div>
+        <div class="col-sm-6">
+      <div id="mc_embed_signup">
+<form action="https://gmail.us3.list-manage.com/subscribe/post?u=16bbf1186b6ec625f1fa76564&amp;id=f93299677b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate style="background-color: #FFBB60; border-radius: 5px; display:block; margin: 5%;">
+     <h3 style="text-align:center; font-family:'Lateef', cursive;font-size: 45px;margin: 7%; margin-top: 5%;">Subscríbete ahora</h3>
     <div id="mc_embed_signup_scroll">
-	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Correo electrónico" required>
+	<input style="border-radius:4px; margin-left: 3%; margin-right: 3%; width: 95%; padding: 12px; border: 1px solid #ccc; resize: vertical;" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Correo electrónico" required>
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_16bbf1186b6ec625f1fa76564_f93299677b" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribete" name="Suscribe" id="mc-embedded-subscribe" class="button"></div>
+    <div class="clear"><input class="bg-dark" style="color: white; border-radius: 4px; padding: 12px 20px;
+  border: none; width: 90%; margin-left: 4%; margin-right: 4%; margin: 4%"  type="submit" value="Subscribete" name="Suscribe" id="mc-embedded-subscribe" class="button"></div>
     </div>
 </form>
 </div>
-
-<!--End mc_embed_signup-->
-
+            </div>
+            
+    </div>
+      
+    </section>
 <!----------------------------------------fin de FORM-------------------------------------------------------------->
     
-    <div class="col-sm-12" style="background-color: white; height: 50%"><br><br><br><br></div>
+    <div class="col-sm-12" style="background-color: white; height: 50%"><br><br><br></div>
 <!---------------------------------------------footer-------------------------------------------------------------->
-<section id="pie" class="col-sm-justify-content-around">
-    <footer class="footer" style="background-color: #FFBB33">
-        <h3 style="text-align:center;  font-family:'Leckerli One', cursive; font-size:4vw; margin-top: 15%">Contactanos</h3>
+<section id="pie" class="col-sm-justify-content-around" style="margin-top: 10%">
+    <footer class="footer" style="background-color: #FFBB33;">
+        <h3 style="text-align:center;  font-family:'Leckerli One', cursive; font-size:4vw; margin-top:5%">Contáctanos</h3>
         <h5 style="text-align:center;  font-family:'Leckerli One', cursive; font-size:2vw;">Sigue a pastelería Vanila en Facebook e Instagram </h5>
           <figure>
               <div class="row">
@@ -264,7 +261,7 @@
                   <div class="col-sm-3"><a href="https://www.instagram.com/come_en_vanila/"><img alt="Instagram" class="img-fluid" src="img/fotos/img/instagram.png" width="30px" height="30px"/>
                   </a>
                   </div>
-                  <div class="col-sm-3"><h5 style="font-size: 20px; color: black; font-family: 'Lateef', cursive; "><img alt="email" class="img-fluid" src="img/fotos/img/email.png" width="35px" height="35px"/>@contacto_pasteleria</h5>
+                  <div class="col-sm-3"><h5 style="font-size: 20px; color: black; font-family: 'Lateef', cursive; "><img alt="email" class="img-fluid" src="img/fotos/img/email.png" width="35px" height="35px"/>comeenvanila@gmail.com</h5>
                   </div>
                   <div class="col-sm-3"><h5 style="font-size: 20px; color: black;font-family: 'Lateef', cursive; "><img alt="whatsApp" class="img-fluid" src="img/fotos/img/wa.png" width="35px" height="35px"/>(477) 175 40 67</h5>
                   </div>
